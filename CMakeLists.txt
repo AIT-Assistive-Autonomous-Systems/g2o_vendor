@@ -39,6 +39,7 @@ ament_vendor(g2o_vendor
   CMAKE_ARGS
     -DG2O_BUILD_APPS=OFF
     -DG2O_BUILD_EXAMPLES=OFF
+    -DG2O_USE_CHOLMOD=OFF
   )
 
 include(ExternalProject)

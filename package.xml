@@ -5,9 +5,17 @@
   <version>1.0.0</version>
   <description>G2O 1.0 library integration</description>
   <maintainer email="markus.hofstaetter@ait.ac.at">Markus Hofstaetter</maintainer>
+  <!-- all other should be free to use (g2o, suitsparse) -->
+  <!-- this -->
   <license>MIT</license>
+  <!-- other g2o, suitesparse modules modules -->
   <license>BSD</license>
+  <!-- other g2o, suitesparse -->
   <license>LGPLv2.1</license>
+  <!-- suitesparse, e.g. CHOLMOD -->
+  <license>GPLv2</license>
+  <!-- examples and apps of g2o (GPL3) -->
+  <license>GPLv3</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
   <buildtool_depend>ament_cmake_core</buildtool_depend>
