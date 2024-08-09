@@ -8,7 +8,7 @@ The vendoring project is licensed using MIT (see [License](LICENSE)). Please ref
 
 ## Build options
 
-We enable the build shared lib options and as long as no changes are made to this repo or `g2o` itself, this should not include any GPL license code as we disabled the examples and apps.
+We enable the build shared lib options and as long as no changes are made to this repo or `g2o` itself, this should not include any GPL license code as we disabled the examples and apps. But as noted below some libs like suitesparse may be compiled with GPL features. So either don't use it or remcompile that if it is an issue.
 
 ## g2o notes
 g2o is licensed under the BSD License. However, some libraries are available
