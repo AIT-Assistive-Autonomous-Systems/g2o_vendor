@@ -60,23 +60,21 @@ if(TARGET g2o_vendor)
     FILES ${SOURCE_DIR}/doc/license-bsd.txt ${SOURCE_DIR}/doc/license-lgpl.txt
       ${SOURCE_DIR}/doc/license-gpl.txt
       ${SOURCE_DIR}/doc/robots.bib ${SOURCE_DIR}/README.md
-    DESTINATION opt/${PROJECT_NAME}/share/g2o/doc/
+    DESTINATION opt/${PROJECT_NAME}/share/doc/g2o/
     )
 
   install(
     FILES ${SOURCE_DIR}/g2o/autodiff/LICENSE
-    DESTINATION opt/${PROJECT_NAME}/share/autodiff/doc/
+    DESTINATION opt/${PROJECT_NAME}/share/doc/autodiff/
     )
 
   install(
     FILES ${SOURCE_DIR}/g2o/EXTERNAL/freeglut/COPYING
-    DESTINATION opt/${PROJECT_NAME}/share/freeglut/doc/
+    DESTINATION opt/${PROJECT_NAME}/share/doc/freeglut/
     )
 
     set(G2O_AMENT_EXTRAS)
 endif()
-
-# install(DIRECTORY cmake DESTINATION share/${PROJECT_NAME})
 
 install(
   FILES LICENSE
